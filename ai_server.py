@@ -1,8 +1,6 @@
 import torch
 import os
-import pathlib
-from pathlib import Path
-pathlib.PosixPath = pathlib.WindowsPath
+
 # 모델 파일 경로
 pt_file_path = 'AI_model/best.pt'
 # 이미지 파일 경로
